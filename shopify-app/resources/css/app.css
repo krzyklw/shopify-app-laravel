@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Mint Green Theme */
+:root {
+    --mint-50: #f0faf5;
+    --mint-100: #d1f5e6;
+    --mint-200: #a3ebd7;
+    --mint-300: #75e0c8;
+    --mint-400: #47d6b9;
+    --mint-500: #19ccaa;
+    --mint-600: #13a388;
+    --mint-700: #0d7a66;
+    --mint-800: #075244;
+    --mint-900: #032922;
+}
+
+.bg-mint-50 { background-color: var(--mint-50); }
+.bg-mint-100 { background-color: var(--mint-100); }
+.bg-mint-200 { background-color: var(--mint-200); }
+.bg-mint-300 { background-color: var(--mint-300); }
+.bg-mint-400 { background-color: var(--mint-400); }
+.bg-mint-500 { background-color: var(--mint-500); }
+.bg-mint-600 { background-color: var(--mint-600); }
+.bg-mint-700 { background-color: var(--mint-700); }
+.bg-mint-800 { background-color: var(--mint-800); }
+.bg-mint-900 { background-color: var(--mint-900); }
+
+.text-mint-500 { color: var(--mint-500); }
+.text-mint-600 { color: var(--mint-600); }
+.text-mint-700 { color: var(--mint-700); }
+.text-mint-800 { color: var(--mint-800); }
+.text-mint-900 { color: var(--mint-900); }
+
+.hover\:bg-mint-500:hover { background-color: var(--mint-500); }
+.hover\:bg-mint-600:hover { background-color: var(--mint-600); }
+.hover\:text-mint-900:hover { color: var(--mint-900); }
+
+.focus\:border-mint-500:focus { border-color: var(--mint-500); }
+.focus\:ring-mint-500:focus { --tw-ring-color: var(--mint-500); }
